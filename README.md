@@ -7,10 +7,10 @@ Docker image for WordPress development, includes the following tools.
 - Composer
 - MailHog
 
-## Installation 
+## Installation
 
-```bash 
-  docker pull ghcr.io/fastwebapp/wordpress:latest
+```sh
+docker pull ghcr.io/fastwebapp/wordpress:latest
 ```
     
 ## License

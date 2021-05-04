@@ -15,4 +15,4 @@ Docker image for WordPress development, includes the following tools.
     
 ## License
 
-[MIT](../../blob/main/LICENSE)
+[MIT](LICENSE)

@@ -15,4 +15,4 @@ docker pull ghcr.io/fastwebapp/wordpress:latest
     
 ## License
 
-[MIT](LICENSE)
+[GNU General Public License v2.0](LICENSE)

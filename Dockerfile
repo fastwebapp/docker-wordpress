@@ -14,9 +14,6 @@ RUN curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli
   && mkdir -p /var/www/.wp-cli/cache \
   && chown -R www-data /var/www/.wp-cli
 
-# FIXME: https://github.com/wp-cli/wp-cli/issues/5494
-RUN wp cli update --nightly --yes
-
 # MailHog
 RUN curl -sSLO https://github.com/mailhog/mhsendmail/releases/download/v0.2.0/mhsendmail_linux_amd64 \
   && chmod +x mhsendmail_linux_amd64 \

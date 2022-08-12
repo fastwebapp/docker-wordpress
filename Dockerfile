@@ -23,4 +23,4 @@ RUN curl -sSLO https://github.com/mailhog/mhsendmail/releases/download/v0.2.0/mh
 # Composer
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 RUN mkdir /var/www/.composer/ \
-  && chown -R www-data /var/www/.composer \
+  && chown -R www-data /var/www/.composer
